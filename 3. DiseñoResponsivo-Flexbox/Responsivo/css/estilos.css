@@ -1,0 +1,651 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.negro{
+    color:#000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.mayus{
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:1025px)
+{
+    .contenedor{
+        width:1170px;
+        height:780px;
+        margin:0 auto;
+		border:3px solid black;
+    }
+
+    .header{
+        height:150px;
+        background-color: #17335b;
+    }
+
+    .logo{
+        width:450px;
+        height:150px;
+        float: left;
+    }
+
+    .uaslp{
+        width: 200px;
+        height: 90px;
+        background-image: url("../img/UASLP.png");
+        background-size: 200px;
+        background-repeat: no-repeat;        
+        border-right: 1px solid #fff;
+        padding-right: 10px;
+        position: relative;
+        top:30px;
+        left:30px;
+    }
+
+    .faccing{
+        width:200px;
+        height:90px;
+        background-image: url("../img/Escudo.png");
+        background-size: 210px;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -55px;
+        left: 270px;
+    }
+
+    .ecentral{
+        width:720px;
+        height:150px;
+        background-image: url("../img/banner.jpg");
+        background-position: center;
+        float:left;
+    }
+
+    .menu_sup{
+        height: 30px;
+        width: 100%;
+        margin-top:5px;
+        padding-top: 10px;
+        padding-bottom: 0%;
+        background-color: #d9d9d9;
+    }
+
+    .menu_sup a{
+        padding-left:90px;
+        padding-right:5px;
+    }
+
+    .contenido{
+        margin-left:5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        height:435px;
+    }
+
+    .menu_lat{
+        width:200px;
+        height:430px;
+    }
+
+    .boton{
+        background-color: #1e72b8;
+        width: 200px;
+        height: 33px;
+        position:relative; 
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .boton a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    #b2{
+        top:5px;
+    }
+    
+    #b3 {
+        top: 10px;
+    }
+
+    #b4 {
+        top: 15px;
+    }
+
+    #b5 {
+        top: 20px;
+    }
+    #b6 {
+        top: 25px;
+    }
+    #b7 {
+        top: 30px;
+    }
+    #b8 {
+        top: 35px;
+    }
+    #b9 {
+        top: 40px;
+    }
+
+    .sec_central{
+        width:700px;
+        height:380px;
+        background-color: bisque;
+        position:relative;
+        top:-429px;
+        left:210px;
+    }
+
+    .links_der{
+        height:430px;
+        width:240px;
+        float: right;
+        position:relative;
+        top:-809px;
+    }
+
+    .programas{
+        height:230px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .boton2{
+        height:46px;
+        width:240px;
+    }
+
+    #programas{
+        height:55px;
+        background-color: #999;
+    }
+
+    #programas a{
+        color:#fff;
+        text-decoration: none;
+        position:relative;
+        left:10px;
+        top:10px;
+    }
+
+    .accesos{
+        height:190px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #accesos {
+        height: 35px;
+        background-color: #999;
+    }
+
+    #accesos a {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+    .footer{
+        padding-left: 20px;
+        padding-top:20px;
+        height:120px;
+        background-color: #dadada;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:1024px){
+    .contenedor {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 150px;
+        background-color: #17335b;
+    }
+
+    .logo {
+        width: 250px;
+        height: 150px;
+        float: left;
+    }
+
+    .uaslp {
+        width: 100px;
+        height: 40px;
+        background-image: url("../img/UASLP.png");
+        background-size: 100px;
+        background-repeat: no-repeat;
+        border-right: 1px solid #fff;
+        padding-right: 10px;
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+
+    .faccing {
+        width: 100px;
+        height: 90px;
+        background-image: url("../img/Escudo.png");
+        background-size: 110px;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 10px;
+        left: 150px;
+    }
+
+    .ecentral {
+        width: 450px;
+        height: 150px;
+        background-image: url("../img/banner.jpg");
+        background-position: center;
+        float: left;
+    }
+
+    .menu_sup {
+        height: 30px;
+        width: 100%;
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 0%;
+        background-color: #d9d9d9;
+    }
+
+    .menu_sup a {
+        padding-left: 20px;
+        padding-right: 7px;
+        font-size: 14px;
+    }
+
+    .contenido {
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        height: 600px;
+    }
+
+    .menu_lat {
+        width: 100%;
+        height: 40px;
+    }
+
+    .boton {
+        background-color: #1e72b8;
+        width: 72px;
+        height: 33px;
+        position: relative;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .boton a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    #b1{
+        top:0px;
+        left:2px;
+    }
+
+    #b2 {
+        top: -43px;
+        left:78px;
+    }
+
+    #b3 {
+        top: -86px;
+        left:154px;
+    }
+
+    #b4 {
+        top: -129px;
+        left:231px;
+    }
+
+    #b5 {
+        top: -172px;
+        left:308px;
+    }
+
+    #b6 {
+        top: -215px;
+        left:385px;
+    }
+
+    #b7 {
+        top: -258px;
+        left:462px;
+    }
+
+    #b8 {
+        top: -301px;
+        left:539px;
+    }
+
+    #b9 {
+        top: -344px;
+        left:616px;
+    }
+
+    .sec_central {
+        width: 100%;
+        height: 380px;
+        background-color: #fee4c3;
+        margin-top:10px;
+    }
+
+    .links_der {
+        height: 170px;
+        width: 100%;
+        margin-top:10px;
+    }
+
+    .programas {
+        height: 95px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .boton2 {
+        height: 50px;
+        width: 100px;
+        position: relative;
+    }
+
+    #programas {
+        height: 45px;
+        width:100%;
+        background-color: #999;
+    }
+
+    #programas a {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+    #b21{
+        top: 3px;
+    }
+
+    #b22{
+        top:-48px;
+        left:150px;
+    }
+
+    #b23{
+        top:-98px;
+        left:300px;
+    }
+
+    #b24 {
+        top: -145px;
+        left: 420px;
+    }
+    
+    .accesos {
+        height: 75px;
+        text-decoration: none;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    #accesos {
+        height: 35px;
+        width: 100%;
+        background-color: #999;
+    }
+
+    #accesos a {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+    #ba1 {
+        top: 3px;
+    }
+
+    #ba2 {
+        top: -48px;
+        left: 50px;
+    }
+
+    #ba3 {
+        top: -98px;
+        left: 100px;
+    }
+
+    #ba4 {
+        top: -145px;
+        left: 150px;
+    }
+
+    .footer {
+        margin-top: 20px;
+        height: 120px;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: #dadada;
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (min-width:0px) and (max-width:680px){
+    .contenedor {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 250px;
+        background-color: #17335b;
+    }
+
+    .logo {
+        width: 100%;
+        height: 80px;
+        float: left;
+    }
+
+    .uaslp {
+        width: 150px;
+        height: 60px;
+        background-image: url("../img/UASLP.png");
+        background-size: 150px;
+        background-repeat: no-repeat;
+        border-right: 1px solid #fff;
+        padding-right: 10px;
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+
+    .faccing {
+        width: 150px;
+        height: 90px;
+        background-image: url("../img/Escudo.png");
+        background-size: 150px;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -49px;
+        left: 200px;
+    }
+
+    .ecentral {
+        width: 100%;
+        height: 170px;
+        background-image: url("../img/banner.jpg");
+        background-size: 160%;
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
+    }
+
+    .menu_sup {
+        height: 30px;
+        width: 100%;
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 0%;
+        background-color: #d9d9d9;
+        background-image: url("../img/menu.PNG");
+        background-size: auto;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .menu_sup a {
+        color:#d9d9d9;
+    }
+
+    .contenido {
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        height: 980px;
+    }
+
+    .menu_lat {
+        width: 100%;
+        height: 330px;
+    }
+
+    .boton {
+        background-color: #1e72b8;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 3px;
+        margin-bottom:3px ;
+    }
+
+    .boton a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .sec_central {
+        width: 100%;
+        height: 380px;
+        background-color: #fee4c3;
+    }
+
+    .links_der {
+        height: 270px;
+        width: 100%;
+    }
+
+    .programas {
+        height: 165px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .boton2 {
+        height: 46px;
+        width:160px;
+        padding-top:15px;
+        padding-left:30px;
+    }
+
+    #programas {
+        width:95%;
+        height: 30px;
+        background-color: #999;
+    }
+
+    #programas a {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    #b21{
+        float:left;
+    }
+
+    #b22 {
+        float: left;
+    }
+    
+    #b23 {
+        float: left;
+    }
+    
+    #b24 {
+        float: left;
+    }
+
+    #accesos {
+        width:95%;
+        height: 30px;
+        background-color: #999;
+    }
+
+    #accesos a {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    #ba1 {
+        width: 50px;
+        padding-left: 30px;
+        float: left;
+    }
+
+    #ba2 {
+        width: 50px;
+        padding-left: 10px;
+        float: left;
+    }
+
+    #ba3 {
+        width: 50px;
+        padding-left: 10px;
+        float: left;
+    }
+
+    #ba4 {
+        width: 50px;
+        padding-left: 10px;
+        float: left;
+    }
+    
+    .footer {
+        height: 120px;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: #dadada;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+
